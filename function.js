@@ -1,7 +1,7 @@
 // The function here takes the parameters that you
 // have declared in the `glide.json` file, in the
 // same order.
-window.function = async function(TrackingNo) {
+window.function = async function(trackingNo) {
   // For each parameter, its `.value` contains
   // either its value in the type you've declared,
   // or it's `undefined`.  This is a good place to
@@ -12,13 +12,13 @@ window.function = async function(TrackingNo) {
   //end = end.value;
 
   // unit is the currency and subunit is the small unit of it 
-  TrackingNo = TrackingNo.value;
+  trackingNo = trackingNo.value;
 
   console.log("I'm alive");
 
   // Define the API endpoint and parameter
   const apiUrl = 'https://api.shipblu.com/api/v1/delivery-order/';
-  const parameter = TrackingNo;
+  const parameter = trackingNo;
 
   // Function to make the API request
   try {
