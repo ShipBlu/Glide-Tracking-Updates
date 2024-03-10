@@ -28,7 +28,7 @@ window.function = async function(TrackingNo) {
     }
     const packageData = await response.json();
     console.log(packageData); // Log the response data to the console
-    return packageData;
+    return "Hello World";
   } catch (error) {
     console.error('Error fetching data:', error);
     return undefined; // Return undefined in case of error
