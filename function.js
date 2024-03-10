@@ -31,6 +31,6 @@ window.function = async function(TrackingNo) {
     return "Hello World";
   } catch (error) {
     console.error('Error fetching data:', error);
-    return undefined; // Return undefined in case of error
+    return "Hello World"; // Return undefined in case of error
   }
 };
