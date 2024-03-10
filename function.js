@@ -38,7 +38,6 @@ window.function = function(TrackingNo) {
 // Call the function to fetch data
 fetchData();
 
-  }
 
   // Your function should return the exact type
   // you've declared for the `result` in
