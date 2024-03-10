@@ -6,8 +6,8 @@
     "author": "Ali Nasser <ali@shipblu.com>",
     "params": [
       {
-        "name": "TrackingNo",
-        "displayName": "TrackingNo",
+        "name": "trackingNo",
+        "displayName": "Tracking No",
         "type": "string"
       }
     ],
