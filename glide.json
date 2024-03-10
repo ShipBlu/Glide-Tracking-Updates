@@ -1,7 +1,7 @@
 [
   {
     "kind": "column",
-    "name": "Package Data",
+    "name": "Package-Data",
     "description": "Fetches package and tracking data.",
     "author": "Ali Nasser <ali@shipblu.com>",
     "params": [
