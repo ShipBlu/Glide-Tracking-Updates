@@ -15,7 +15,9 @@ window.function = async function(trackingNo) {
   trackingNo = trackingNo.value;
 
   console.log("I'm alive");
-return "Hello World"; // Return undefined in case of 
+  
+  return trackingNo; 
+  
   // Define the API endpoint and parameter
   const apiUrl = 'https://api.shipblu.com/api/v1/delivery-order/';
   const parameter = trackingNo;
