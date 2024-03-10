@@ -26,9 +26,9 @@ window.function = async function(TrackingNo) {
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
-    const data = await response.json();
-    console.log(data); // Log the response data to the console
-    return data;
+    const packageData = await response.json();
+    console.log(packageData); // Log the response data to the console
+    return packageData;
   } catch (error) {
     console.error('Error fetching data:', error);
     return undefined; // Return undefined in case of error
