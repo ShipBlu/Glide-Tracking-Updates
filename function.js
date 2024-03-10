@@ -11,7 +11,6 @@ window.function = async function(trackingNo) {
   //start = start.value ?? 0;
   //end = end.value;
 
-  // unit is the currency and subunit is the small unit of it 
   trackingNo = trackingNo.value;
 
   console.log("I'm alive");
