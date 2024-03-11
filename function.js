@@ -19,12 +19,13 @@ window.function = async function(option, trackingNo) {
   const parameter = trackingNo;
 
   // Function to make the API request
+  let packageData;
   try {
     const response = await fetch(`${apiUrl}${parameter}`);
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
-    const packageData = await response.json();
+    packageData = await response.json();
     
   } catch (error) {
     console.error('Error fetching data:', error);
