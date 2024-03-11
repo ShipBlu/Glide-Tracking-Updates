@@ -27,7 +27,8 @@ window.function = async function(trackingNo) {
     }
     const packageData = await response.json();
     console.log(packageData); // Log the response data to the console
-    return packageData;
+    const formattedString = `Package ${packageData.id} is currently ${packageData.status}.`;
+    return formattedString;
   } catch (error) {
     console.error('Error fetching data:', error);
     return "Hello World"; // Return undefined in case of error
