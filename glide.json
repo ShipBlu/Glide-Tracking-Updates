@@ -6,6 +6,11 @@
     "author": "Ali Nasser <ali@shipblu.com>",
     "params": [
       {
+        "name": "option",
+        "displayName": "Data Selector",
+        "type": "number"
+      },
+      {
         "name": "trackingNo",
         "displayName": "Tracking No",
         "type": "string"
